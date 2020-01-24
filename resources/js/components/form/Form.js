@@ -63,7 +63,7 @@ class FormPage extends Component {
   render(){
     
     return (<MDBContainer>
-      <MDBNav right className='justify-content-center'>
+      <MDBNav className='justify-content-center'>
       <MDBNavItem>
         <MDBBtn color="primary" href="table">Listar Cadastros</MDBBtn>
       </MDBNavItem>
