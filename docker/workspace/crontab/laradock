@@ -1,0 +1,1 @@
+* * * * * laradock php /var/www/moodle/public/admin/cli/cron.php >> /dev/null 2>&1
