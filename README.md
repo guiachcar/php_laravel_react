@@ -16,4 +16,4 @@ docker-compose up -d
 
 //limpar a base
 docker exec -it laradock_workspace_1 php artisan migrate:refresh
-<code>
+</code>
