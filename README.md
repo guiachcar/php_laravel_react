@@ -1,19 +1,19 @@
 <strong> Projeto para Avaliação </strong>
 
-<code>
-//gerar pasta node_modules instalar NPM    
-npm install
-    
-//dependências YARN    
-yarn install
+```php
+    //gerar pasta node_modules instalar NPM    
+    npm install
 
-//dependências Composer    
-composer install
+    //dependências YARN    
+    yarn install
 
-//ir para pasta docker e subir container (banco já configurado)
-cd docker
-docker-compose up -d
+    //dependências Composer    
+    composer install
 
-//limpar a base
-docker exec -it laradock_workspace_1 php artisan migrate:refresh
-</code>
+    //ir para pasta docker e subir container (banco já configurado)
+    cd docker
+    docker-compose up -d
+
+    //limpar a base
+    docker exec -it laradock_workspace_1 php artisan migrate:refresh
+```
